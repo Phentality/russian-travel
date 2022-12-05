@@ -1,4 +1,4 @@
-.places__website_link {
+.places__link {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -8,6 +8,6 @@
     color: #FFFFFF;
 }
 
-.places__website_link:hover {
+.places__link:hover {
     cursor: pointer;
 }
