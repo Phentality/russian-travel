@@ -1,4 +1,4 @@
-.places__place_paragraph {
+.places__paragraph {
     padding: 0;
     margin: 0;
     font-family: 'Inter';
@@ -10,13 +10,13 @@
 }
 
 @media screen and (max-width:768px) {
-    .places__place_paragraph {
+    .places__paragraph {
         font-size: 16px;
     }
 }
 
 @media screen and (max-width:320px) {
-    .places__place_paragraph {
+    .places__paragraph {
         font-size: 16px;
         margin: 0 16px 0;
     }
