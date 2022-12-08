@@ -1,7 +1,6 @@
 .intro__text {
     display: inline-block;
     width: 690px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -9,9 +8,8 @@
     color: white;
 }
 
-@media screen and (max-width:320px) {
+@media (min-width: 320px) and (max-width:767px) {
     .intro__text {
         width: 288px;
-        font-size: 16px;
     }
 }

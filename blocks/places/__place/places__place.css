@@ -1,18 +1,13 @@
 .places__place {
     display: grid;
     grid-template-columns: 460px 456px;
-    grid-template-rows: 152px 460px;
+    grid-template-rows: auto 1fr;
     grid-auto-flow: row;
     gap: 48px 40px;
     padding: 0;
     margin-bottom: 80px;
     max-width: 984px;
-    max-height: 660px;
     width: 100%;
-}
-
-.places__place:nth-child(2), .places__place:nth-child(3), .places__place:nth-child(5)  {    
-    grid-template-rows: 76px 460px;
 }
 
 .places__place:last-child {    
@@ -21,48 +16,33 @@
 
 @media screen and (max-width:1024px) {
     .places__place {
-            grid-template-columns: 440px 456px;
-            grid-template-rows: 152px 440px;
-            gap: 48px 32px;
-            max-width: 928px;
-            max-height: 640px;
+        grid-template-columns: 440px 456px;
+        gap: 48px 32px;
+        max-width: 928px;
     }
 }
 
-@media screen and (max-width:768px) {
-    .places__place:first-child {    
-        grid-template-rows: 92px 440px;
-    }
+@media (min-width:768px) and (max-width:1023px) {
 
     .places__place {
         grid-template-columns: 340px 352px;
-        grid-template-rows: 46px 400px;
         gap: 48px 28px;
         max-width: 720px;
-        max-height: 581px;
         margin-bottom: 73px;
-    }
-
-    .places__place:nth-child(2), .places__place:nth-child(3), .places__place:nth-child(4), .places__place:nth-child(5)  {    
-        grid-template-rows: 46px 400px;
     }
 
 }
 
-@media screen and (max-width:320px) {
+@media (min-width: 320px) and (max-width:767px) {
     .places__place {
         grid-template-columns: 320px;
         grid-template-rows: 35px 46px 320px 500px;
         grid-auto-flow: column;
         gap: 32px;
         max-width: 320px;
-        max-height: 1042px;
         margin-bottom: 50px;
     }
 
-    .places__place:nth-child(1), .places__place:nth-child(2), .places__place:nth-child(3), .places__place:nth-child(4), .places__place:nth-child(5)  {    
-        grid-template-rows: 35px 46px 320px 500px;
-    }
     
     .places__place:last-child {    
         margin-bottom: 0px;

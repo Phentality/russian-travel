@@ -1,6 +1,6 @@
 .header__lang-link {
     text-decoration: none;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -8,11 +8,7 @@
     color: white;
 }
 
-.header__lang-link:first-child {
-    text-decoration: underline;
-}
-
-@media screen and (max-width:320px) {
+@media (min-width: 320px) and (max-width:767px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;

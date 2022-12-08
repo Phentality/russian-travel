@@ -1,9 +1,9 @@
 .places__url-heading {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 100%;
+    margin: 0 0 16px;
     letter-spacing: 2px;
     color: #AAAAAA;
 }
