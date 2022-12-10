@@ -8,6 +8,11 @@
     color: #FFFFFF;
 }
 
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
 @media (min-width: 320px) and (max-width:767px) {
     .footer__link {
         margin: 0;

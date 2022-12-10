@@ -7,11 +7,17 @@
     padding: 0;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
+    background-position: center;
     z-index: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.cover:hover .cover__overlay {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 @media screen and (max-width:1024px) {
@@ -33,6 +39,6 @@
     .cover {
         max-width: 320px;
         min-height: 200px;
-        margin: auto;
+        margin: 66px auto;
     }
 }
